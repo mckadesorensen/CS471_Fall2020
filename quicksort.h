@@ -7,6 +7,7 @@
 
 #include <vector>
 
-void quicksort(std::vector<double> data);
+void quicksort(std::vector<double> & data);
+double partition(double & data, double low, double high);
 
 #endif //HOMEWORK_1_QUICKSORT_H
